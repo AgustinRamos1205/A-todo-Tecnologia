@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>A todo Tecnología</title>
+</head>
+<body>
+  <header>
+    <h1>Bienvenido A todo Tecnologia</h1>
+  </header>
+  <section>
+    <h2>Descubre las últimas innovaciones tecnológicas</h2>
+    <p>En nuestra página encontrarás información sobre los avances más recientes en tecnología.</p>
+    <p>No te pierdas las noticias y novedades sobre productos gaming de buena calidad y más.</p>
+    <a href="#contacto">Contáctanos</a> para obtener más información.
+  </section>
+
+  <section>
+    <h2>Últimas super ofertas</h2>
+    <p>¡NO te las perdas!</p>
+    <section class="image-container">
+        <img src="img/imagen 1.jpg" alt="Super Teclado gaming">
+        <img src="img/imagen 2.webp" alt="El mejor combo">
+    </section>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si tienes alguna pregunta o deseas recibir más información, completa el siguiente formulario:</p>
+    <form onsubmit="validarFormulario(event)">
+      <input type="text" id="nombre" placeholder="Nombre" required>
+      <input type="email" id="email" placeholder="Correo electrónico" required>
+      <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Tu Página de Tecnología &copy; 2023. Todos los derechos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
